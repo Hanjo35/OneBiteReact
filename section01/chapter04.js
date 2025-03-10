@@ -1,11 +1,10 @@
-
 // 1. 변수
-let age; 
+let age;
 
-age = 30; 
+age = 30;
 
 // 2. 상수
-const birth ="1999.03.05";
+const birth = "1999.03.05";
 
 // birth = "1999.03.06";  상수는 변경 불가능.
 
@@ -15,15 +14,13 @@ const birth ="1999.03.05";
 let name1;
 let $2name;
 
-// 3-3. 예약어 사용 불가 (ex. let, const, function) 
+// 3-3. 예약어 사용 불가 (ex. let, const, function)
 
 // 4. 변수 명명 가이드
- let a = 1;
- let b = 2;
- let c = a - b;
+let a = 1;
+let b = 2;
+let c = a - b;
 
- let salesCount = 1;
- let refundCount = 2;
- let totalSalesCount = salesCount - refundCount;
-
- 
+let salesCount = 1;
+let refundCount = 2;
+let totalSalesCount = salesCount - refundCount;

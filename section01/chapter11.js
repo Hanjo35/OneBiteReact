@@ -1,14 +1,14 @@
 // 함수
 
-function getArea (width, height) {
-    let area = width * height;
+function getArea(width, height) {
+  let area = width * height;
 
-    function another() {
-        console.log("another");
-    }
+  function another() {
+    console.log("another");
+  }
 
-    another();
-    return area;
+  another();
+  return area;
 }
 
 let area1 = getArea(10, 20);

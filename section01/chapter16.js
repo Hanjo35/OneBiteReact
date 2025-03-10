@@ -1,9 +1,9 @@
 // 1. 상수 객체
 
-const animal = { 
-    type: "고양이",
-    name: "나비",
-    color: "black",
+const animal = {
+  type: "고양이",
+  name: "나비",
+  color: "black",
 };
 
 animal.age = 2;
@@ -16,13 +16,12 @@ console.log(animal);
 // => 값이 함수인 프로퍼티를 말함
 
 const person = {
-    name: "이한조",
+  name: "이한조",
 
-    // 메서드 선언 
-    sayHi() {
-        console.log("안뇽");
-    },
-
+  // 메서드 선언
+  sayHi() {
+    console.log("안뇽");
+  },
 };
 
 person.sayHi();

@@ -37,10 +37,6 @@ let comp3 = 2 > 1;
 let comp4 = 2 < 1;
 
 let comp5 = 2 >= 2;
-let comp6 = 2 <= 2; 
+let comp6 = 2 <= 2;
 
 console.log(comp5, comp6);
-
-
-
-

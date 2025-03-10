@@ -18,12 +18,12 @@ let t5 = () => {};
 // 3. 활용 사례
 
 function printName(person) {
-    if(!person) {
-        console.log("person 값이 없습니다.");
-        return;
-    }
-    console.log(person.name);
+  if (!person) {
+    console.log("person 값이 없습니다.");
+    return;
+  }
+  console.log(person.name);
 }
 
-let person = {name : "이한조"};
+let person = { name: "이한조" };
 printName(person);

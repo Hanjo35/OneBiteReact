@@ -1,3 +1,5 @@
+// 2강부터는 기록을 위해 콘솔문 남겨놓음
+
 // function returnFalse() {
 //     console.log("False 함수");
 //     return false;
@@ -15,10 +17,9 @@
 // 단락평가 활용 사례
 
 function printName(person) {
-    const name = person && person.name;
-    console.log(name || "person의 값이 없음");
-
+  const name = person && person.name;
+  console.log(name || "person의 값이 없음");
 }
 
 printName();
-printName({ name : "이한조"});
+printName({ name: "이한조" });
